@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #394867;
+    color: #F1F6F9;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mosque-icon{
+    margin-right: 5%;
+    color: #F1F6F9;
+}
+
+.navbar-text{
+    color:#F1F6F9
+}
+
+.profile-dropdown{
+    margin-left: 10rem;
+    color:#F1F6F9
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-title{
+        font-size: 16px;
+    }
+  }

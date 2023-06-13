@@ -1,0 +1,69 @@
+.home_body{
+    background-color: #F1F6F9;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 76.5vh;
+}
+
+
+.card{
+    width: 50rem;
+    height: 20rem;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: #9BA4B5;
+    color:#F1F6F9;
+    display: flex;
+    flex-direction: row;
+}
+
+.Kaaba{
+    width: 250px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+.getStartBtn{
+    background-color: #394867;
+    border: none;
+}
+
+.getStartBtn:hover{
+    background-color: #F1F6F9;
+    color: #212A3E;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .Kaaba{
+        width: 120px;
+        margin-bottom: 0px;
+    }
+    .appText{
+        font-size: 14px;
+    }
+   
+  }
+
+  @media screen and (max-width: 900px) {
+    .card{
+        margin-left:  10%;
+        margin-right:  10%;
+    }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    .appText{
+        font-size: 10px;
+    }
+
+  }
+
+
+

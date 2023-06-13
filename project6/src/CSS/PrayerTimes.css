@@ -1,0 +1,138 @@
+.body {
+  background-color: #f1f6f9;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.search-body {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar-Btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 50%;
+}
+
+.search-bar {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.searchBtn {
+  background-color: #394867;
+  color: #f1f6f9;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.searchBtn:hover {
+  background-color: #f1f6f9;
+  color: #212a3e;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+}
+
+.times-imgs {
+  border-top: 1px solid #394867;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.times-img {
+  width: 320px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.text {
+  color: #212a3e;
+}
+
+.arabic-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 12%;
+  font-size: 25px;
+}
+
+.times {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+#miladiDate,
+#hijriDate {
+  font-size: 20px;
+}
+
+.search-body {
+  position: relative;
+}
+.city-options {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  border-radius: 10px;
+  background-color: #fff;
+  list-style-type: none;
+  max-height: 200px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  overflow-y: auto;
+}
+
+.city-options li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.city-options li:hover {
+  background-color: #f4f4f4;
+}
+
+@media screen and (max-width: 480px) {
+  .search-bar-Btn {
+    width: 80%;
+  }
+  .times-img {
+    width: 224px;
+    height: 140px;
+  }
+
+  .arabic-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20%;
+    font-size: 25px;
+  }
+  .city-options {
+    width: 80%;
+  }
+}
